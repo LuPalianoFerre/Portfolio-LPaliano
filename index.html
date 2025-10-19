@@ -31,38 +31,39 @@
     <body>
 
 
-
         <!-- 🔹 NAVBAR -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
             <div class="container-fluid">
-
                 <a class="navbar-brand fw-bold" href="#">LUCÍA</a>
+                <!-- Botón hamburguesa -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-
-                <!-- Enlaces -->
-                <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="#">Educación</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Experiencia Laboral</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Proyectos DW</a></li>
+                <!-- Menú principal: pestañas y búsqueda -->
+                <div class="collapse navbar-collapse flex-md-column flex-lg-row justify-content-between px-2"
+                    id="navbarNav">
+                    <!-- Pestañas del menú -->
+                    <ul class="navbar-nav order-md-2 order-lg-1 w-100 flex-column flex-lg-row">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Educación</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Experiencia Laboral</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Proyectos DW</a>
+                        </li>
                     </ul>
-
-                    <!-- Campo de búsqueda -->
-                    <form class="d-flex">
+                    <form class="d-flex order-md-1 order-lg-2 ms-lg-auto my-2 my-md-0">
                         <input class="form-control form-control-sm" type="search" placeholder="Buscar">
                     </form>
                 </div>
-
-                <!-- Botón hamburguesa -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    
             </div>
-
-
         </nav>
+
+
 
 
         <!-- 🔹 ENCABEZADO CON CARRUSEL -->

@@ -9,3 +9,25 @@ section {
     text-align: justify;
 }
 
+/* Orden personalizado para pantallas menores a LG */
+.nav-flex-custom > * {
+  order: 0;
+}
+@media (max-width: 991.98px) {
+  .nav-search { order: 1; }
+  .nav-educacion { order: 2; }
+  .nav-experiencia { order: 3; }
+  .nav-proyectos { order: 4; }
+  .nav-aside { order: 5; margin-top: 10px; }
+  .nav-link { color: #fff !important; }
+  #navbarNav { background: #707680; border-radius: 0 0 8px 8px; }
+  .list-group-item { background: #fff; }
+}
+@media (min-width: 992px) {
+  .nav-search { order: 5; margin-left: auto; margin-bottom: 0 !important; }
+  .nav-educacion { order: 1; }
+  .nav-experiencia { order: 2; }
+  .nav-proyectos { order: 3; }
+  .nav-aside { display: none; /* no mostrar aside en LG+ si no lo quieres */ }
+}
+
