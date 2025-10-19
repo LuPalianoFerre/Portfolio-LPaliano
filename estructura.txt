@@ -1,0 +1,12 @@
+/portfolio/
+│
+├── index.html                → Presentación personal
+├── experiencia.html          → Experiencia laboral
+├── estudios.html             → Estudios cursados
+├── proyectos.html            → Proyectos de desarrollo web
+├── css/
+│   └── style.css             → Tus estilos personalizados (si querés agregar sobre Bootstrap)
+└── img/
+    └── ...                   → Fotos personales, logos, capturas de proyectos, etc.
+
+
